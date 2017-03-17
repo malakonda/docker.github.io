@@ -57,7 +57,7 @@ notary delegation add --publish \
   dtr.example.org/dev/nginx targets/releases \
   --all-paths <user-1-cert.pem> <user-2-cert.pem>
 
-# Delegate trust, and add that public key with the role targets/admin
+# Delegate trust, and add that public key with the role targets/qa
 notary delegation add --publish \
   dtr.example.org/dev/nginx targets/qa \
   --all-paths <user-1-cert.pem> <user-2-cert.pem>
