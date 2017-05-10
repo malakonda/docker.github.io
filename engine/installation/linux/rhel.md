@@ -112,8 +112,10 @@ the repository.
     ```bash
     $ sudo yum-config-manager \
         --add-repo \
-        <DOCKER-EE-URL>/docker-ee.repo
+        <DOCKER-EE-URL>/<OS-NAME>/docker-ee.repo
     ```
+    
+    OS-NAME for Red Hat Enterprise Linux is "rhel"
 
 #### Install Docker
 
